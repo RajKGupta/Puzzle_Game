@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rajk.puzzle_game.MainActivity">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/puzzle_image"
+        >
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:src="@mipmap/ic_fab" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:id="@+id/times"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/earth_1"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/owl_31"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/owl_32"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sun_2"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/monkey_4"
+            android:background="@drawable/earth_1_drawable"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cater_6"
+            android:background="@drawable/earth_1_drawable"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wing_7"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slip_81"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slip_82"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book_11"
+            android:background="@drawable/earth_1_drawable"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kite_12"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cat_91"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cat_92"
+            android:background="@drawable/earth_1_drawable"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ant_51"
+            android:background="@drawable/earth_1_drawable"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ant_52"
+            android:background="@drawable/earth_1_drawable"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ant_53"
+            android:background="@drawable/earth_1_drawable"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ant_54"
+            android:background="@drawable/earth_1_drawable"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ant_55"
+            android:background="@drawable/earth_1_drawable"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flower_101"
+            android:background="@drawable/earth_1_drawable"/>
+
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flower_102"
+            android:background="@drawable/earth_1_drawable"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flower_103"
+            android:background="@drawable/earth_1_drawable"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flower_104"
+            android:background="@drawable/earth_1_drawable"/>
+
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:visibility="gone"
+    android:id="@+id/l">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle_stroke"
+            android:orientation="vertical">
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Want a Hint??"
+    android:id="@+id/hintButton"
+    android:textColor="@color/white"
+    android:background="@drawable/rectangle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Earth"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:id="@+id/earth"
+                android:drawableLeft="@mipmap/ic_item"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Sun"
+                android:id="@+id/sun"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  2 Owls"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/owl"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Shy Monkey"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/monkey"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  5 Ants"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/ant"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Caterpillar"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/cater"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Butterfly Wing"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/wing"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  2 Cats"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/cat"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  2 Slippers"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/slip"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  4 Red Flowers"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/flower"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Book"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/book"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  Kite"
+                android:textSize="@dimen/text_size"
+                android:textColor="#ffffff"
+                android:drawableLeft="@mipmap/ic_item"
+                android:id="@+id/kite"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+    </FrameLayout>

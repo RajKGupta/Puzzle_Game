@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/puzzle_image_blur"
+    tools:context="com.example.rajk.puzzle_game.Introduction">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/relLayout"
+    android:background="@drawable/rectangle"></RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/textView"
+        android:text="Find It !!"
+        android:fontFamily="cursive"
+        />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Start Game"
+    android:textColor="@color/white"
+    android:background="@drawable/rectangle"
+    android:id="@+id/startGame"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestTime"
+        android:textColor="@color/white"
+        android:background="@drawable/rectangle"
+        android:text="Best Time"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules"
+        android:textColor="@color/white"
+        android:background="@drawable/rectangle"
+        android:text="Rules"/>
+</RelativeLayout>
